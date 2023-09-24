@@ -1,0 +1,22 @@
+:root {
+  --gradient-blue-green: linear-gradient(90deg, #0a58ca 0%, #20c997 100%);
+  --gray-100: #f8f9fa;
+  --gray-800: #343a40;
+  --dashboard-panel-fill: rgba(52, 58, 64, 0.2);
+}
+
+body {
+  background: var(--gradient-blue-green);
+}
+
+.sidenav {
+  background-color: var(--dashboard-panel-fill);
+  border-radius: 0px 30px 30px 0px;
+  box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.sidenav-logo {
+  /* flex: 1 0 auto; */
+  width: 100px;
+  /* width: inherit; */
+}
